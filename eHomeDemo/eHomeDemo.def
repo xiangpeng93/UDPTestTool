@@ -1,0 +1,7 @@
+LIBRARY "eHomeDemo"
+EXPORTS 
+Init
+Fini
+Connect
+SendData
+GetMsg

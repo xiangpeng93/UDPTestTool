@@ -1,0 +1,45 @@
+﻿<Window x:Class="eHomeClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UDP测试工具" Height="350" Width="525"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <TextBlock  HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5" Text="IP地址："></TextBlock>
+            <TextBox Name="IpAddr" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="100" Margin="5" Text="10.33.30.217"></TextBox>
+            <TextBlock  HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5" Text="端口号："></TextBlock>
+
+            <TextBox Name="Port" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" MinWidth="100" Margin="5" Text="7660"></TextBox>
+            <Button Name="ConnectBtn" HorizontalAlignment="Left"  Margin="5" Click="ConnectBtn_Click"  Content="连接"></Button>
+        </DockPanel>
+        
+        <DockPanel Grid.Row="1">
+            <Button HorizontalAlignment="Left"  Margin="5" Name="Register" Click="Register_Click">注册报文</Button>
+            <Button HorizontalAlignment="Left"  Margin="5" Name="UnRegister" Click="UnRegister_Click">注销报文</Button>
+            <Button HorizontalAlignment="Left"  Margin="5" Name="ReReg" Click="ReReg_Click">重注册报文</Button>
+            <Button HorizontalAlignment="Left"  Margin="5" Name="Restart"  Click="Restart_Click">重启报文</Button>
+            <Button HorizontalAlignment="Left"  Margin="5" Name="Alarm" Click="Alarm_Click">报警报文</Button>
+
+        </DockPanel>
+        <DockPanel Grid.Row="2">
+            <StackPanel>
+                <TextBlock Text="发送报文："></TextBlock>
+                <TextBlock Text=""></TextBlock>
+                <TextBlock Text=""></TextBlock>
+                <TextBlock Text=""></TextBlock>
+                <Button  Name="Send_btn" Click="Send_btn_Click" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"  Margin="5" IsEnabled="False">发送</Button>
+            </StackPanel>
+            <TextBox Name="SendBox" TextWrapping="Wrap"  MinWidth="400" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="2" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"></TextBox>
+        </DockPanel>
+        <DockPanel Grid.Row="3">
+            <TextBlock Text="接收报文："></TextBlock>
+            <TextBox Name="RecvBox" MinWidth="400" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="2"  VerticalScrollBarVisibility="Auto" AcceptsReturn="True"></TextBox>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eHomeDemo", "eHomeDemo\eHomeDemo.vcxproj", "{62CCADC2-410A-468F-8E6D-EBEF1785496C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eHomeDemoConsole", "eHomeDemoConsole\eHomeDemoConsole.vcxproj", "{598A2985-C75C-4A32-AB24-414A69965FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHomeClient", "eHomeClient\eHomeClient\eHomeClient.csproj", "{EC2F3BC1-855A-4162-9DDD-B029077759FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F65B961-7FCA-42D6-A0D5-583C731B2083}"
+	ProjectSection(SolutionItems) = preProject
+		bin\Release\config.xml = bin\Release\config.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Debug|Win32.Build.0 = Debug|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Release|Win32.ActiveCfg = Release|Win32
+		{62CCADC2-410A-468F-8E6D-EBEF1785496C}.Release|Win32.Build.0 = Release|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Debug|Win32.Build.0 = Debug|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Release|Win32.ActiveCfg = Release|Win32
+		{598A2985-C75C-4A32-AB24-414A69965FBC}.Release|Win32.Build.0 = Release|Win32
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EC2F3BC1-855A-4162-9DDD-B029077759FE}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
